@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>c09ab198-2494-4456-b2fb-1a35a16ea38b</Id>
+    <SubDomainId>fe41a3f9-b812-4036-92a5-1f197b1a3763</SubDomainId>
+    <Identifier scheme="bdx-procid-bits">urn:fdc:bits.no:2019:nics:05:1.0</Identifier>
+    <Title>NICS Registry Information</Title>
+    <Alias>nics-05</Alias>
+
+    <Period>
+        <StartDate>2019-08-27</StartDate>
+    </Period>
+    
+    <Role>
+        <Id>392a6301-b04b-43e7-97bd-96051f14f682</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>Bank Data Centre</Title>
+
+        <Encryption>
+            <MinimumQuality>NCP</MinimumQuality>
+        </Encryption>
+
+        <DocumentType>
+            <Title>BOLS LK70</Title>
+            <Encrypted>true</Encrypted>
+        </DocumentType>
+        <DocumentType>
+            <Title>BOLS LK76</Title>
+            <Encrypted>true</Encrypted>
+        </DocumentType>
+    </Role>
+
+</Process>

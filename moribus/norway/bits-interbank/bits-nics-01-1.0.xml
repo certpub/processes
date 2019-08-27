@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>38b246ee-410f-4f1f-b808-3d0d30c6df18</Id>
+    <SubDomainId>fe41a3f9-b812-4036-92a5-1f197b1a3763</SubDomainId>
+    <Identifier scheme="bdx-procid-bits">urn:fdc:bits.no:2019:nics:01:1.0</Identifier>
+    <Title>NICS Payment Transactions for Clearing (Edifact)</Title>
+    <Alias>nics-01</Alias>
+
+    <Period>
+        <StartDate>2019-08-27</StartDate>
+    </Period>
+    
+    <Role>
+        <Id>e4e24ecb-63b0-418c-949d-5662ea7b2750</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>NICS/NNI</Title>
+
+        <Encryption>
+            <MinimumQuality>NCP</MinimumQuality>
+        </Encryption>
+
+        <DocumentType>
+            <Title>NIBE FINPAY</Title>
+            <Encrypted>true</Encrypted>
+        </DocumentType>
+    </Role>
+    
+    <Role>
+        <Id>b65d7540-a4c6-4ab9-8fe5-16483cd0095d</Id>
+        <Identifier>RESPONSE</Identifier>
+        <Title>Bank Data Centre</Title>
+
+        <Encryption>
+            <MinimumQuality>NCP</MinimumQuality>
+        </Encryption>
+
+        <DocumentType>
+            <Title>CONTROL</Title>
+            <Encrypted>true</Encrypted>
+        </DocumentType>
+        <DocumentType>
+            <Title>BANSTA</Title>
+            <Encrypted>true</Encrypted>
+        </DocumentType>
+    </Role>
+
+</Process>

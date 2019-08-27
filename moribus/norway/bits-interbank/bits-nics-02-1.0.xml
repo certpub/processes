@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+    <Id>63d7471b-6859-4acf-991f-edee2fbc03a9</Id>
+    <SubDomainId>fe41a3f9-b812-4036-92a5-1f197b1a3763</SubDomainId>
+    <Identifier scheme="bdx-procid-bits">urn:fdc:bits.no:2019:nics:02:1.0</Identifier>
+    <Title>NICS Payment Transactions for Clearing (Bols)</Title>
+    <Alias>nics-02</Alias>
+
+    <Period>
+        <StartDate>2019-08-27</StartDate>
+    </Period>
+    
+    <Role>
+        <Id>ec3b9e26-d504-4b0f-b72e-c04308210f2c</Id>
+        <Identifier>REQUEST</Identifier>
+        <Title>NICS/NNI</Title>
+
+        <Encryption>
+            <MinimumQuality>NCP</MinimumQuality>
+        </Encryption>
+
+        <DocumentType>
+            <Title>BOLS 25/26/27</Title>
+            <Encrypted>true</Encrypted>
+        </DocumentType>
+    </Role>
+    
+    <Role>
+        <Id>bfde7353-124a-4270-9a36-188699e5b036</Id>
+        <Identifier>RESPONSE</Identifier>
+        <Title>Bank Data Centre</Title>
+
+        <Encryption>
+            <MinimumQuality>NCP</MinimumQuality>
+        </Encryption>
+
+        <DocumentType>
+            <Title>BOLS LK95</Title>
+            <Encrypted>true</Encrypted>
+        </DocumentType>
+        <DocumentType>
+            <Title>BOLS LK96</Title>
+            <Encrypted>true</Encrypted>
+        </DocumentType>
+        <DocumentType>
+            <Title>Bilaterally defined</Title>
+            <Encrypted>true</Encrypted>
+        </DocumentType>
+    </Role>
+
+</Process>
