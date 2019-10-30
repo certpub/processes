@@ -1,7 +1,0 @@
-sudo: required
-
-services:
-  - docker
-
-script:
-  - docker run --rm -i -v $(pwd):/src difi/vefa-moribus
