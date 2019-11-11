@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Moribus xmlns="urn:fdc:anskaffelser.no:2019:vefa:moribus:v3">
+
+    <Issuer>
+        <Id>049cba50-b317-4361-8d5b-bb2724a3ffa2</Id>
+        <Alias>icd-0192</Alias>
+
+        <Title>Norwegian Organization Number</Title>
+        <Issuer>Registerenheten i Brønnøysund</Issuer>
+
+        <Scheme>ISO6523</Scheme>
+        <Prefix>0192:</Prefix>
+    </Issuer>
+
+</Moribus>

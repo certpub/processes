@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Moribus xmlns="urn:fdc:anskaffelser.no:2019:vefa:moribus:v3">
+    
+    <Certificate>
+        <Id>30701074-2fd5-4186-a47b-5810c395f9f7</Id>
+        <Alias>eidas-lcp</Alias>
+        <Title>eIDAS LCP</Title>
+
+        <Identifier>urn:fdc:difi.no:2019:certificate:eidas:lcp</Identifier>
+    </Certificate>
+
+    <Certificate>
+        <Id>dc6323e5-309b-4ceb-ad6d-e4a4e193cb7d</Id>
+        <Alias>eidas-ncp</Alias>
+        <Title>eIDAS NCP</Title>
+
+        <Identifier>urn:fdc:difi.no:2019:certificate:eidas:ncp</Identifier>
+    </Certificate>
+
+    <Certificate>
+        <Id>2fccff66-db97-4950-ad6c-39f1eabf2670</Id>
+        <Alias>eidas-ncpp</Alias>
+        <Title>eIDAS NCP+</Title>
+
+        <Identifier>urn:fdc:difi.no:2019:certificate:eidas:ncpp</Identifier>
+    </Certificate>
+
+</Moribus>

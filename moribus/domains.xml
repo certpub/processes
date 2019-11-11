@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Group xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+<Moribus xmlns="urn:fdc:anskaffelser.no:2019:vefa:moribus:v3">
 
     <Domain>
         <Id>a3188bc7-396f-49f7-b07c-a4cfac3240dd</Id>
-        <Title>Banking</Title>
         <Alias>banking</Alias>
+        <Title>Banking</Title>
     </Domain>
 
-</Group>
+</Moribus>

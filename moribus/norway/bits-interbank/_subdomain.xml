@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SubDomain xmlns="urn:fdc:anskaffelser.no:2019:vefa:moribus:v3">
+    <Id>fe41a3f9-b812-4036-92a5-1f197b1a3763</Id>
+    <Alias>no.interbank</Alias>
+    <DomainRef>banking</DomainRef>
+    <SourceRef>bits</SourceRef>
+
+    <Title>Interbank (Norway)</Title>
+
+    <IssuerRef>icd-0192</IssuerRef>
+
+    <!-- <Encryption>
+        <MinimumQuality>NCP</MinimumQuality>
+    </Encryption> -->
+
+    <Role>
+        <Id>c7560a8c-1665-483e-b8bf-0760183dc791</Id>
+        <Alias>nics</Alias>
+        <Title>NICS/NNI</Title>
+    </Role>
+    <Role>
+        <Id>b62cce60-a064-44b2-84ac-7ad96a342dfd</Id>
+        <Alias>centre</Alias>
+        <Title>Bank Data Centre</Title>
+    </Role>
+
+    <Environment>
+        <Id>b6cc0cbe-d40a-4f6a-a1b3-65e36c5533ef</Id>
+        <Title>Test</Title>
+        <Type>TEST</Type>
+        <Identifier>...</Identifier>
+    </Environment>
+    <Environment>
+        <Id>3fbd78f4-4412-400c-a1f0-98adcacc0ac7</Id>
+        <Title>Production</Title>
+        <Type>PRODUCTION</Type>
+        <Identifier>...</Identifier>
+    </Environment>
+
+</SubDomain>
