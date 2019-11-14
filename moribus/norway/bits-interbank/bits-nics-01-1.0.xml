@@ -17,29 +17,28 @@
     <InitiatorRoleRef>nics</InitiatorRoleRef>
     <ResponderRoleRef>centre</ResponderRoleRef>
 
-    <!-- <Encryption>
-        <MinimumQuality>NCP</MinimumQuality>
-    </Encryption> -->
-
     <DocumentType>
         <Id>25942b68-f92d-441d-b52c-804b9fe3d055</Id>
         <Title>NIBE FINPAY</Title>
         <ReceiverRoleRef>nics</ReceiverRoleRef>
-        <!-- <Encrypted>true</Encrypted> -->
+        <CertificateUsage>ENCRYPTION</CertificateUsage>
+        <CertificateUsage>SIGNING</CertificateUsage>
     </DocumentType>
 
     <DocumentType>
         <Id>3c78aaa1-c820-40e7-a76e-9c3cdf5e1de6</Id>
         <Title>CONTROL</Title>
         <ReceiverRoleRef>centre</ReceiverRoleRef>
-        <!-- <Encrypted>true</Encrypted> -->
+        <CertificateUsage>ENCRYPTION</CertificateUsage>
+        <CertificateUsage>SIGNING</CertificateUsage>
     </DocumentType>
 
     <DocumentType>
         <Id>2a409abb-147c-4305-952c-81a5ae866408</Id>
         <Title>BANSTA</Title>
         <ReceiverRoleRef>centre</ReceiverRoleRef>
-        <!-- <Encrypted>true</Encrypted> -->
+        <CertificateUsage>ENCRYPTION</CertificateUsage>
+        <CertificateUsage>SIGNING</CertificateUsage>
     </DocumentType>
 
 </Process>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2">
+<Process xmlns="urn:fdc:difi.no:2018:vefa:moribus:v2" draft="true">
     <Id>c09ab198-2494-4456-b2fb-1a35a16ea38b</Id>
     <SubDomainId>fe41a3f9-b812-4036-92a5-1f197b1a3763</SubDomainId>
     <Identifier scheme="bdx-procid-bits">urn:fdc:bits.no:2019:nics:05:1.0</Identifier>

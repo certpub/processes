@@ -7,11 +7,13 @@
 
     <Title>Interbank (Norway)</Title>
 
-    <IssuerRef>icd-0192</IssuerRef>
+    <ProductRef>certpub</ProductRef>
 
-    <!-- <Encryption>
-        <MinimumQuality>NCP</MinimumQuality>
-    </Encryption> -->
+    <CertificateRef usage="ENCRYPTION">eidas-ncp</CertificateRef>
+    <CertificateRef usage="SIGNING">eidas-ncp</CertificateRef>
+    <CertificateRef usage="SIGNING">eidas-qcp</CertificateRef>
+
+    <IssuerRef>icd-0192</IssuerRef>
 
     <Role>
         <Id>c7560a8c-1665-483e-b8bf-0760183dc791</Id>

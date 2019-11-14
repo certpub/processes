@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Moribus xmlns="urn:fdc:anskaffelser.no:2019:vefa:moribus:v3">
+    
+    <Product>
+        <Id>ff64d5d0-8d6f-4ac9-a16a-dd5c2fba43c9</Id>
+        <Alias>certpub</Alias>
+        <Title>CertPub</Title>
+    </Product>
+    
+</Moribus>

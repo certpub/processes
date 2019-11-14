@@ -19,10 +19,10 @@
 
     <Certificate>
         <Id>2fccff66-db97-4950-ad6c-39f1eabf2670</Id>
-        <Alias>eidas-ncpp</Alias>
-        <Title>eIDAS NCP+</Title>
+        <Alias>eidas-qcp</Alias>
+        <Title>eIDAS QCP</Title>
 
-        <Identifier>urn:fdc:difi.no:2019:certificate:eidas:ncpp</Identifier>
+        <Identifier>urn:fdc:difi.no:2019:certificate:eidas:qcp</Identifier>
     </Certificate>
 
 </Moribus>
