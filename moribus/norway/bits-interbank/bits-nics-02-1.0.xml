@@ -9,7 +9,7 @@
     <Period>
         <StartDate>2019-08-27</StartDate>
     </Period>
-    
+
     <Role>
         <Id>ec3b9e26-d504-4b0f-b72e-c04308210f2c</Id>
         <Identifier>REQUEST</Identifier>
@@ -18,13 +18,17 @@
         <Encryption>
             <MinimumQuality>NCP</MinimumQuality>
         </Encryption>
+        <Signing>
+            <MinimumQuality>NCP</MinimumQuality>
+        </Signing>
 
         <DocumentType>
             <Title>BOLS 25/26/27</Title>
             <Encrypted>true</Encrypted>
+            <Signed>true</Signed>
         </DocumentType>
     </Role>
-    
+
     <Role>
         <Id>bfde7353-124a-4270-9a36-188699e5b036</Id>
         <Identifier>RESPONSE</Identifier>
@@ -33,18 +37,24 @@
         <Encryption>
             <MinimumQuality>NCP</MinimumQuality>
         </Encryption>
+        <Signing>
+            <MinimumQuality>NCP</MinimumQuality>
+        </Signing>
 
         <DocumentType>
             <Title>BOLS LK95</Title>
             <Encrypted>true</Encrypted>
+            <Signed>true</Signed>
         </DocumentType>
         <DocumentType>
             <Title>BOLS LK96</Title>
             <Encrypted>true</Encrypted>
+            <Signed>true</Signed>
         </DocumentType>
         <DocumentType>
             <Title>Bilaterally defined</Title>
             <Encrypted>true</Encrypted>
+            <Signed>true</Signed>
         </DocumentType>
     </Role>
 

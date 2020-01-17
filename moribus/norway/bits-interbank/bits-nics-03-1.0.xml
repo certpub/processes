@@ -9,7 +9,7 @@
     <Period>
         <StartDate>2019-08-27</StartDate>
     </Period>
-    
+
     <Role>
         <Id>7b53e250-48fb-41cd-940d-1315f6a8a179</Id>
         <Identifier>REQUEST</Identifier>
@@ -18,10 +18,14 @@
         <Encryption>
             <MinimumQuality>NCP</MinimumQuality>
         </Encryption>
+        <Signing>
+            <MinimumQuality>NCP</MinimumQuality>
+        </Signing>
 
         <DocumentType>
             <Title>NIBE_FINPAY</Title>
             <Encrypted>true</Encrypted>
+            <Signed>true</Signed>
         </DocumentType>
     </Role>
 
@@ -33,14 +37,19 @@
         <Encryption>
             <MinimumQuality>NCP</MinimumQuality>
         </Encryption>
+        <Signing>
+            <MinimumQuality>NCP</MinimumQuality>
+        </Signing>
 
         <DocumentType>
             <Title>CONTROL</Title>
             <Encrypted>true</Encrypted>
+            <Signed>true</Signed>
         </DocumentType>
         <DocumentType>
             <Title>BANSTA</Title>
             <Encrypted>true</Encrypted>
+            <Signed>true</Signed>
         </DocumentType>
     </Role>
 

@@ -9,7 +9,7 @@
     <Period>
         <StartDate>2019-08-27</StartDate>
     </Period>
-    
+
     <Role>
         <Id>5a71cfcd-54ff-46dd-9ab5-76caf6a7e22f</Id>
         <Identifier>REQUEST</Identifier>
@@ -18,10 +18,14 @@
         <Encryption>
             <MinimumQuality>NCP</MinimumQuality>
         </Encryption>
+        <Signing>
+            <MinimumQuality>NCP</MinimumQuality>
+        </Signing>
 
         <DocumentType>
             <Title>BOLS LK25/26/27</Title>
             <Encrypted>true</Encrypted>
+            <Signed>true</Signed>
         </DocumentType>
     </Role>
 
@@ -33,14 +37,19 @@
         <Encryption>
             <MinimumQuality>NCP</MinimumQuality>
         </Encryption>
+        <Signing>
+            <MinimumQuality>NCP</MinimumQuality>
+        </Signing>
 
         <DocumentType>
             <Title>BOLS LK95</Title>
             <Encrypted>true</Encrypted>
+            <Signed>true</Signed>
         </DocumentType>
         <DocumentType>
             <Title>BOLS LK96</Title>
             <Encrypted>true</Encrypted>
+            <Signed>true</Signed>
         </DocumentType>
     </Role>
 
