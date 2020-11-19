@@ -11,13 +11,22 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
 
-    - name: Validate using XSDs
-      uses: klakegg/xsdchecker@master
-      with:
-        script: |
-          wget -q -O Moribus-2.xsd \
-            https://github.com/anskaffelser/vefa-moribus/releases/download/v0.9.0/Moribus-2.xsd
-          xc Moribus-2.xsd $(find moribus -type f -name *.xml | sort)
+#    - name: Validate using XSDs
+#      uses: klakegg/xsdchecker@master
+#      with:
+#        script: |
+#          wget -q -O Moribus-2.xsd \
+#            https://github.com/anskaffelser/vefa-moribus/releases/download/v0.9.0/Moribus-2.xsd
+#          xc Moribus-2.xsd $(find moribus -type f -name *.xml | sort)
 
     - name: Run Moribus
-      uses: anskaffelser/vefa-moribus@v0.9.0
+      run: make build
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.DEPLOY_TOKEN }}
+        external_repository: ${{ secrets.DEPLOY_REPO }}
+        publish_branch: ghpages
+        publish_dir: target/site
+        destination_dir: processes/service/processes

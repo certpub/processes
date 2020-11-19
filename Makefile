@@ -1,7 +1,9 @@
+IMAGE=anskaffelser/moribus:edge
+
 default: build
 
 pull:
-	@docker pull anskaffelser/moribus:edge
+	@docker pull $(IMAGE)
 
 build:
-	@docker run --rm -i -v $(shell pwd):/src -v $(shell pwd)/target:/target anskaffelser/moribus:edge
+	@docker run --rm -i -v $$(pwd):/src -v $$(pwd)/target:/target $(IMAGE)
